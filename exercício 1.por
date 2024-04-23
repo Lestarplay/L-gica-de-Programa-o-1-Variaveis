@@ -3,8 +3,12 @@ programa
 	
 	funcao inicio()
 	{
-		escreva("nome_do_carro")
-		inteiro fusca
+		escreva("Informação sobre o carro\n")
+		cadeia nome_do_carro = "fusca"
+
+		escreva("O nome do carro é " + nome_do_carro)
+		
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -12,7 +16,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 81; 
+ * @POSICAO-CURSOR = 154; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

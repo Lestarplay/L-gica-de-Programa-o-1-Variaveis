@@ -3,13 +3,17 @@ programa
 	
 	funcao inicio()
 	{
-		escreva("Formulario do Usario\n")
-		cadeia usuario
+		escreva("Área do Triângulo")
+		inteiro base, altura
 
-		escreva("Olá, Nome do Usuario: ")
-		leia(usuario)
+		escreva("Informe a base do Triângulo: ")
+		leia(base)
 
-		escreva("Olá," + usuario)
+		escreva("Informe a altura do Triângulo: ")
+		leia(altura)
+
+		escreva("A área do triângulo é: " + base * altura / 2)
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -17,7 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 155; 
+ * @POSICAO-CURSOR = 268; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

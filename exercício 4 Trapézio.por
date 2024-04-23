@@ -3,13 +3,16 @@ programa
 	
 	funcao inicio()
 	{
-		escreva("Formulario do Usario\n")
-		cadeia usuario
+		escreva("Área do Trapézio\n")
+		inteiro basemaior, basemenor
 
-		escreva("Olá, Nome do Usuario: ")
-		leia(usuario)
+		escreva("Informe a base maior do Trapézio: ")
+		leia(basemaior)
 
-		escreva("Olá," + usuario)
+		escreva("Informe a base menor do Trapézio: ")
+		leia(basemenor)
+
+		escreva("A área do Trapézio é: " + basemaior + basemenor/2)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -17,7 +20,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 155; 
+ * @POSICAO-CURSOR = 295; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -3,13 +3,16 @@ programa
 	
 	funcao inicio()
 	{
-		escreva("Formulario do Usario\n")
-		cadeia usuario
+		escreva("Área do Losango\n")
+		inteiro diagonalmaior, diagonalmenor
 
-		escreva("Olá, Nome do Usuario: ")
-		leia(usuario)
+		escreva("Informe o diagonal maior: ")
+		leia(diagonalmaior)
 
-		escreva("Olá," + usuario)
+		escreva("Informe o diagonal menor: ")
+		leia(diagonalmenor)
+
+		escreva("A área do Losango é: " + diagonalmaior * diagonalmenor/2)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -17,7 +20,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 155; 
+ * @POSICAO-CURSOR = 303; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
